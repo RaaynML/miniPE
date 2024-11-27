@@ -1,46 +1,46 @@
-#MZ
+ ##MZ
 4D 5A 50 00 02 00 00 00
 04 00 00 00 00 00 00 00
 40 00 00 00 00 00 00 00
 BA 00 00 00 00 00 00 00
-#DOS stub
+ ##DOS stub
 0E 1F BA 0E 00 B4 09
 CD 21 B8 01 4C CD 21
-#PE signature
+ ##PE signature
 50 45 00 00
-4C 01					#Archicture (x86)
-01 00					#Number of Sections
-00 00 00 00		#TimeDateStamp
-00 00 00 00		#Symbol Table
-00 00					#Symbol Count
-E0 00					#Optional Header Size
-03 01					#Characteristics
-#Magic PE32 & Linker Version
+4C 01          #Archicture (x86)
+01 00          #Number of Sections
+00 00 00 00    #TimeDateStamp
+00 00 00 00    #Symbol Table
+00 00          #Symbol Count
+E0 00          #Optional Header Size
+03 01          #Characteristics
+ ##Magic PE32 & Linker Version
 0B 01 00 00
-08 00 00 00		#SizeOfCode
-00 00 00 00		#data sizes
+08 00 00 00    #SizeOfCode
+00 00 00 00    #data sizes
 00 00 00 00
-#Entry Point
+ ##Entry Point
 00 00 00 00
-#Base addresses
+ ##Base addresses
 00 00 00 00
 00 00 00 00
-#ImageBase
+ ##ImageBase
 00 00 00 00
-08 00 00 00		#SectionAlignment
-08 00 00 00		#FileAlignment
-04 00					#OS ver
-02 00					#Subsystem (Win32)
-08 00 00 00		#SizeOfImage
-08 00 00 00		#SizeOfHeaders
-#Data Directory
+08 00 00 00    #SectionAlignment
+08 00 00 00    #FileAlignment
+04 00          #OS ver
+02 00          #Subsystem (Win32)
+08 00 00 00    #SizeOfImage
+08 00 00 00    #SizeOfHeaders
+ ##Data Directory
 00 00 00 00 00 00 00 00
-#.text
+ ##.text
 2E 74 65 78 74 00 00 00
-08 00 00 00		#Virtual Size
-00 00 00 00		#Virtual Address
-08 00 00 00		#Raw Data Size
-08 00 00 00		#Raw Data Pointer
-60 00 00 00		#Section Characteristics (executable)
-#Minimal executable content (null)
+08 00 00 00    #Virtual Size
+00 00 00 00    #Virtual Address
+08 00 00 00    #Raw Data Size
+08 00 00 00    #Raw Data Pointer
+60 00 00 00    #Section Characteristics (executable)
+ ##Minimal executable content (null)
 00
